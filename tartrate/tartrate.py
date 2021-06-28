@@ -42,7 +42,6 @@ def evaluate_start_codon(hit):
 
 def main():
     '''Main function'''
-    start = time.clock()
     parser = argparse.ArgumentParser(description='tartrate - Find if Salmonella isolate has start codon in STM3356')
     parser.add_argument("-v", "--version", help="Installed version", action="version",
                         version="%(prog)s " + str(__version__))
